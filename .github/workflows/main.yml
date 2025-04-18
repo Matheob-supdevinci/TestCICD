@@ -1,7 +1,7 @@
 name: CI Python Vulnerable Build
 
 on:
-  commit:
+  push:
     branches: [ main ]
 
 jobs:
