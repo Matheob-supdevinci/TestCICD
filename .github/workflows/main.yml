@@ -25,7 +25,7 @@ jobs:
       - name: Secret
         env:
           SECRET_API_KEY: ${{ secrets.API_KEY }}
-        run: echo "Secret loaded $secrets.API_KEY -- $SECRET_API_KEY
+        run: echo "Secret loaded $secrets.API_KEY -- $SECRET_API_KEY"
 
       - name: Execute command
         run: |
